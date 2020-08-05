@@ -1,11 +1,5 @@
 import React from 'react';
 
-import {Link} from 'react-router-dom';
-
-import logoImg from '../../../assets/images/logo.svg';
-import backIcon from '../../../assets/images/icons/back.svg';
-
-
 import TeacherItem from '../../components/TeacherItem/Index';
 import PageHeader from '../../components/PageHeader/Index';
 
@@ -28,7 +22,7 @@ function TeacherList(){
                     </div>
 
                     <div className="input-block">
-                        <label htmlFor="time">Matéria</label>
+                        <label htmlFor="time">Horário</label>
                         <input type="text" id="time"/>
                     </div>
                 </form>
