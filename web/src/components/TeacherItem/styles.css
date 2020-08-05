@@ -79,27 +79,30 @@
     background: var(--color-secundary-dark);
 }
 
-@media (min-width: 700px){
-    .teacher-item header, .teacher-item footer{
+.teacher-item footer button img {
+    margin-left: 1.6rem;
+}
+
+@media (min-width: 700px) {
+    .teacher-item header,
+    .teacher-item footer {
         padding: 3.2rem;
     }
 
-    .teacher-item > p{
+    .teacher-item > p {
         padding: 0 3.2rem;
     }
 
-    .teacher-item footer p strong{
+    .teacher-item footer p strong {
         display: initial;
         margin-left: 1.6rem;
     }
 
-    .teacher-item footer button{
+    .teacher-item footer button {
         width: 24.5rem;
         font-size: 1.6rem;
         justify-content: center;
     }
 
-    .teacher-item footer button img{
-        margin-right: 1.6rem;
-    }
+
 }
